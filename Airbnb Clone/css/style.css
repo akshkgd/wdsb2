@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 58px;
+}
+.container{
+    margin:0 6%;
+}
+.hero{
+    background-image: url('../img/hero.jpeg');
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+
+}
+.hero-content{
+    text-align: center;
+    padding: 300px 0 40px 0 ;
+}
+.hero-title{
+    color: white;
+    font-size: 38px;
+    font-weight: 400;
+}
+.white-btn{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.white-btn:hover{
+    background-color: rgb(238, 238, 238);
+    border:1px solid rgb(238, 238, 238);
+    color: black;
+}
+.white-btn-small{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.white-btn-small:hover{
+    background-color: rgb(238, 238, 238);
+    border:1px solid rgb(238, 238, 238);
+    color: black;
+}
+.title{
+    font-size: 32px;
+    font-weight: 500;
+   
+}
+.trip-card{
+    width: 240px;
+    height: 350px;
+    background-color: lightgray;
+    border-radius: 12px;
+    margin: 12px;
+    flex-grow: 1;
+
+}
+.trip-card:first-child{
+    margin-left: 0;
+}
+.trip-1{
+    background-color: rgb(222, 49, 81);
+}
+.trip-2{
+    background-color: rgb(217, 59, 48);
+}
+.trip-3{
+    background-color: rgb(204, 45, 74);
+}
+.trip-4{
+    background-color: rgb(188, 26, 110);
+}
+.trip-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+.trip-body{
+    padding: 0 16px
+}
+.trip-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+}
+.trip-desc{
+    color: white;
+    margin: 0;
+}
+.trip-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.experience-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.exp-card-1{
+    background-image: url('../img/e1.jpeg');
+    height: 540px;
+    width: 49%;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+.exp-card-2{
+    background-image: url('../img/e2.jpeg');
+    height: 540px;
+    width: 49%;
+    background-size: cover;
+    border-radius: 16px;
+
+
+}
+.exp-content{
+    padding: 30px 0 0 30px;
+}
+
+.hero-footer{
+    background-image: url('../img/hero-bottom.jpeg');
+    height: 700px;
+    background-size: cover;
+}
+
+.hero-footer-content{
+    padding: 60px 80px;
+    
+}
+.footer-hero-title{
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+    width: 200px;
+    line-height: 76px;
+}
+.footer-btn-wrapper{
+    padding: 160px 0 0 80px;
+}
+.exp-hero-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.exp-hero-1{
+    background-image: url('../img/eph1.jpeg');
+    height: 340px;
+    width: 49%;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+.exp-hero-2{
+    background-image: url('../img/eph2.jpeg');
+    height: 340px;
+    width: 49%;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+.exp-hero-content{
+    padding: 30px 0 0 20px;
+    color: white;
+}
+.small{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+.exp-title{
+    font-size:  22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    width: 240px;
+
+}
+.exp-hero-btn-wrapper{
+    padding: 130px 0 0 20px;
+}
+
+.starting-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-1{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    display: flex;
+    width: 300px;
+    flex-grow: 1;
+}
+.card-1-img{
+    height: 160px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+.card-1-content{
+    padding: 0 0 0 12px;
+}
+.btn-outline-dark{
+    border:1px solid #000 ;
+    border-radius: 6px;
+    padding: 4px 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.small-1{
+    font-size: 14px;
+    font-weight: 400;
+}
