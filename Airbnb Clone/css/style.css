@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 body{
     margin: 0;
     padding: 0;
@@ -240,9 +241,11 @@ section{
 
 .navbar{
     margin: 0 6%;
+    padding-top: 12px;
     color: white;
     display: flex;
     justify-content: space-between;
+    
 }
 .navbar-link{
     color: rgb(240, 240, 240);
@@ -256,6 +259,7 @@ section{
 .navbar-middle-container{
     list-style-type:none;
     display: flex;
+    
 }
 .navbar-middle-container li{
     padding: 0 10px;
@@ -281,7 +285,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .quick-link{
@@ -297,6 +300,9 @@ section{
     padding-left: 30px;
     padding-right: 30px;
     border-right: 1px solid rgb(236, 236, 236);
+}
+.quick-link-section:last-child{
+    padding-right: 8px;
 }
 .quick-link:hover{
     background-color: rgb(238, 238, 238);
@@ -317,4 +323,65 @@ section{
     font-size: 13px;
     font-weight: 300;
     color: #000;
+}
+.search-btn{
+    background-color: #FF385C !important;;
+    display: block;
+    border:none;
+    color: white;
+    height: 54px;
+    width: 54px;
+    /* padding: 4px 0 0 12px; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer{
+    background-color: rgb(236, 236, 236);
+    padding: 0 6%;
+    margin: 0;
+}
+.footer-links{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+}
+.footer-link-section
+{
+   width: 300px;
+}
+.f-link{
+    list-style-type:none;
+   
+}
+.f-link li{
+    margin-bottom: 12px;
+}
+.footer-link{
+    list-style-type:none;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 16px !important;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-bottom-text{
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer-bottom{
+    margin-top: 8px;
+    border-top:1px solid lightgray;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    margin-left: 16px;
 }
