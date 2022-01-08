@@ -10,25 +10,72 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- colors
-    primary - blue;
-    secondary - gray;
-    success - green;
-    danger - red;
-    warning - yellow;
-    info - light blue;
-    light - white;
-    dark - black;
- -->
-<!-- padding -> p-0.......p-5; pt-> pb-> pl-> pr-> {0-5} => px => {0-5} py => {0-5}
-margin -> m-0.......m-5; mt-> mb-> ml-> mr-> {0-5} => px => {0-5} my => {0-5} -->
-<!-- fs -> 1-5 -->
-<!-- display => 1-4 -->
+    <!-- breakpoints in bootstrap
+    sm: 576px
+    md: 768px
+    lg: 992px
+    xl: 1200px
+    -->
 
-<div class="bg-primary mx-5 p-3 rounded-lg text-light mt-5">
-    <h1 class="text-cente  display-4 fw-bold">Welcome to the masterclass</h1>
-    <p class="fs-5 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas architecto, mollitia aliquam officiis fugit cum labore sed consequatur fugiat perspiciatis eius sint adipisci commodi, hic rerum! Sunt fugit et esse in nemo blanditiis accusantium, assumenda nihil maxime, ea odit veritatis reiciendis maiores distinctio consequuntur, quis facilis laborum perferendis error.</p>
-    <a href="" class="btn btn-light">Know More</a>
-</div>
+
+
+    <div class="container d-none">
+    <div class="row justify-content-center">
+        <div class="col-md-5 mt-5">
+            <div class="card p-3 rounded-lg  shadow-lg border-none">
+                <img src="https://source.unsplash.com/1600x900/?twitter" alt="" class="rounded-lg">
+                <div class="d-flex justify-content-between ">
+                    <h2 class="fs-4 fw-bold mt-2">Social Media </h2>
+                    <p class="mt-2 bg-success px-2 badge badge-success px-3 rounded-pill fw-light">Social Media</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate iste officia!</p>
+                <div class="">
+                    <a href="https://codekaro.in" class="btn btn-dark stretched-link">Know More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5 mt-5">
+            <div class="card p-3 rounded-lg  shadow-lg border-none">
+                <img src="https://source.unsplash.com/1600x900/?mountains" alt="" class="rounded-lg">
+                <div class="d-flex justify-content-between ">
+                    <h2 class="fs-4 fw-bold mt-2">Beautiful Mountains </h2>
+                    <p class="mt-2 bg-primary px-2 badge px-3 rounded-pill fw-light">Mountains</p>
+                </div>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate iste officia!</p>
+                <div class="">
+                    <a href="" class="btn btn-dark">Know More</a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    </div>
+
+
+    <section>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card rounded-lg border-none shadow-lg">
+                        <img src="https://source.unsplash.com/1600x900/?nature" alt="" class="nature">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between ">
+                                <h2 class="fs-4 fw-bold mt-2">Beautiful Mountains </h2>
+                                <p class="mt-2 bg-primary px-2 badge px-3 rounded-pill fw-light">Mountains</p>
+                            </div>
+                            
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore aliquam, id labore eius maiores ducimus accusamus molestiae porro ipsum, blanditiis repellat explicabo asperiores. Molestiae necessitatibus excepturi inventore odit! Necessitatibus, aperiam.</p>
+                            <div class="">
+                                <a href="" class="btn btn-dark">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

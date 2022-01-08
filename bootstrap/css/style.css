@@ -1,3 +1,13 @@
 .rounded-lg{
     border-radius: 12px;
 }
+.border-none{
+    border: none;
+}
+.nature{
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
