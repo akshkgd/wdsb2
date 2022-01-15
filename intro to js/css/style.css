@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif !important;; 
+}
+/* 
+#name{
+   background-color: rgb(224, 255, 212);
+   border: 1px solid rgb(152, 255, 152);
+   color: green;
+   padding: 2px 18px;
+   border-radius: 4px;
+
+} */
+
+
+.bill-card{
+    box-shadow: 0px 2px 4px rgba(100, 100, 100, 0.5);
+    border-radius: 12px;
+    padding: 24px;
+}
